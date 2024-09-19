@@ -1,0 +1,163 @@
+[
+  {
+    "ContainingType": "Latihan.Controllers.AccountController",
+    "Method": "GetAllDataAccount",
+    "RelativePath": "api/Account/empData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Latihan.ViewModels.AuthVM\u002BLoginVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerVM",
+        "Type": "Latihan.ViewModels.AuthVM\u002BRegisterVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.GetDataController",
+    "Method": "GetAllAccounts",
+    "RelativePath": "api/GetData/accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.GetDataController",
+    "Method": "GetAllEducation",
+    "RelativePath": "api/GetData/educations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.GetDataController",
+    "Method": "GetAllDepartments",
+    "RelativePath": "api/GetData/employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.GetDataController",
+    "Method": "GetAllProfiling",
+    "RelativePath": "api/GetData/profilings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.UniversityController",
+    "Method": "GetAllUniversities",
+    "RelativePath": "api/University",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.UniversityController",
+    "Method": "AddUniversity",
+    "RelativePath": "api/University",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "university",
+        "Type": "Latihan.Models.University",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.UniversityController",
+    "Method": "GetDepartmentsById",
+    "RelativePath": "api/University/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.UniversityController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/University/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "university",
+        "Type": "Latihan.Models.University",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan.Controllers.UniversityController",
+    "Method": "DeleteDepartment",
+    "RelativePath": "api/University/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

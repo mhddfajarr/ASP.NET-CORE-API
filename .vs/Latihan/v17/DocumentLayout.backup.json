@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\layout\\sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\layout\\sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\script\\universityscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\script\\universityscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\university\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\university\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\adminlte-3.2.0\\pages\\forms\\validation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\adminlte-3.2.0\\pages\\forms\\validation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\layout\\mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\layout\\mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\adminlte-3.2.0\\pages\\forms\\general.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\adminlte-3.2.0\\pages\\forms\\general.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "universityScript.js",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\universityScript.js",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\script\\universityScript.js",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\universityScript.js",
+              "RelativeToolTip": "Client\\wwwroot\\script\\universityScript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T04:58:01.519Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\University\\Index.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\University\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\University\\Index.cshtml",
+              "RelativeToolTip": "Client\\Views\\University\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T06:44:25.107Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Layout\\Sidebar.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\Sidebar.cshtml",
+              "RelativeToolTip": "Client\\Views\\Layout\\Sidebar.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T09:55:23.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\MainLayout.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Layout\\MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\MainLayout.cshtml",
+              "RelativeToolTip": "Client\\Views\\Layout\\MainLayout.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T08:10:04.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "validation.html",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\validation.html",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\validation.html",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\validation.html",
+              "RelativeToolTip": "Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\validation.html",
+              "ViewState": "AgIAAH0DAAAAAAAAAAAAAJUDAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-18T08:05:31.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "general.html",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\general.html",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\general.html",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\general.html",
+              "RelativeToolTip": "Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\general.html",
+              "ViewState": "AgIAAFkDAAAAAAAAAAAAAF0DAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-18T07:02:50.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

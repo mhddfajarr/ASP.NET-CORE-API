@@ -3,28 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\latihan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|solutionrelative:latihan\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\script\\registerscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\script\\registerscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\script\\accountscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\script\\accountscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\layout\\sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\layout\\sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\script\\universityscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\script\\universityscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\latihan\\controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|solutionrelative:latihan\\controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\university\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\university\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\script\\profilescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\script\\profilescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\adminlte-3.2.0\\pages\\forms\\validation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\adminlte-3.2.0\\pages\\forms\\validation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\layout\\mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\layout\\mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\adminlte-3.2.0\\pages\\forms\\general.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\adminlte-3.2.0\\pages\\forms\\general.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\wwwroot\\script\\accountrolescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\wwwroot\\script\\accountrolescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\latihan\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|solutionrelative:latihan\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\latihan\\repositories\\universityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|solutionrelative:latihan\\repositories\\universityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\latihan\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|solutionrelative:latihan\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\latihan\\controllers\\getdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2507C56A-A6B7-4B23-BF3E-4C08F0BD0ED5}|Latihan\\Latihan.csproj|solutionrelative:latihan\\controllers\\getdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\notlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\notlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\dashboard\\frontend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\dashboard\\frontend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\controllers\\accessdenied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\controllers\\accessdenied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|c:\\users\\muhammad.shiddiq\\source\\repos\\latihan\\client\\views\\accessdenied\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13D3D694-FE7E-4BDD-9771-DA4DCFAD796C}|Client\\Client.csproj|solutionrelative:client\\views\\accessdenied\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,91 +82,231 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "universityScript.js",
-              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\universityScript.js",
-              "RelativeDocumentMoniker": "Client\\wwwroot\\script\\universityScript.js",
-              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\universityScript.js",
-              "RelativeToolTip": "Client\\wwwroot\\script\\universityScript.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-18T04:58:01.519Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\University\\Index.cshtml",
-              "RelativeDocumentMoniker": "Client\\Views\\University\\Index.cshtml",
-              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\University\\Index.cshtml",
-              "RelativeToolTip": "Client\\Views\\University\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T06:44:25.107Z",
-              "IsPinned": true,
+              "Title": "accountScript.js",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\accountScript.js",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\script\\accountScript.js",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\accountScript.js",
+              "RelativeToolTip": "Client\\wwwroot\\script\\accountScript.js",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAgwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-11T07:07:20.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sidebar.cshtml",
-              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\Sidebar.cshtml",
-              "RelativeDocumentMoniker": "Client\\Views\\Layout\\Sidebar.cshtml",
-              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\Sidebar.cshtml",
-              "RelativeToolTip": "Client\\Views\\Layout\\Sidebar.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEoAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "registerScript.js",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\registerScript.js",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\script\\registerScript.js",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\registerScript.js",
+              "RelativeToolTip": "Client\\wwwroot\\script\\registerScript.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwLEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-03T08:41:22.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Client\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAAAOoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T09:55:23.046Z",
+              "WhenOpened": "2024-10-03T08:00:40.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "profileScript.js",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\profileScript.js",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\script\\profileScript.js",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\profileScript.js",
+              "RelativeToolTip": "Client\\wwwroot\\script\\profileScript.js",
+              "ViewState": "AgIAALMAAAAAAAAAAAAQwL8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-03T07:37:44.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Latihan\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Latihan\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:13:05.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\MainLayout.cshtml",
-              "RelativeDocumentMoniker": "Client\\Views\\Layout\\MainLayout.cshtml",
-              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\MainLayout.cshtml",
-              "RelativeToolTip": "Client\\Views\\Layout\\MainLayout.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T08:10:04.152Z",
-              "EditorCaption": ""
+              "Title": "UniversityController.cs",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Controllers\\UniversityController.cs",
+              "RelativeDocumentMoniker": "Latihan\\Controllers\\UniversityController.cs",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Controllers\\UniversityController.cs",
+              "RelativeToolTip": "Latihan\\Controllers\\UniversityController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T02:00:22.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Latihan\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "Latihan\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:35:07.795Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "validation.html",
-              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\validation.html",
-              "RelativeDocumentMoniker": "Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\validation.html",
-              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\validation.html",
-              "RelativeToolTip": "Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\validation.html",
-              "ViewState": "AgIAAH0DAAAAAAAAAAAAAJUDAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-18T08:05:31.626Z",
+              "Title": "Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Layout\\Sidebar.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Layout\\Sidebar.cshtml",
+              "RelativeToolTip": "Client\\Views\\Layout\\Sidebar.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T02:58:05.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "general.html",
-              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\general.html",
-              "RelativeDocumentMoniker": "Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\general.html",
-              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\general.html",
-              "RelativeToolTip": "Client\\wwwroot\\AdminLTE-3.2.0\\pages\\forms\\general.html",
-              "ViewState": "AgIAAFkDAAAAAAAAAAAAAF0DAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-18T07:02:50.539Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "UniversityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Repositories\\UniversityRepository.cs",
+              "RelativeDocumentMoniker": "Latihan\\Repositories\\UniversityRepository.cs",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Repositories\\UniversityRepository.cs",
+              "RelativeToolTip": "Latihan\\Repositories\\UniversityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:35:06.842Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "Client\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T04:24:16.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "accountRoleScript.js",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\accountRoleScript.js",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\script\\accountRoleScript.js",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\accountRoleScript.js",
+              "RelativeToolTip": "Client\\wwwroot\\script\\accountRoleScript.js",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-03T07:35:35.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Latihan\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Latihan\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:34:52.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetDataController.cs",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Controllers\\GetDataController.cs",
+              "RelativeDocumentMoniker": "Latihan\\Controllers\\GetDataController.cs",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Latihan\\Controllers\\GetDataController.cs",
+              "RelativeToolTip": "Latihan\\Controllers\\GetDataController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:13:16.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\NotLogin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\NotLogin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\NotLogin\\Index.cshtml",
+              "RelativeToolTip": "Client\\Views\\NotLogin\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T03:48:33.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Client\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T03:03:26.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frontEnd.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Dashboard\\frontEnd.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Dashboard\\frontEnd.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\Dashboard\\frontEnd.cshtml",
+              "RelativeToolTip": "Client\\Views\\Dashboard\\frontEnd.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T03:03:29.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccessDenied.cs",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Controllers\\AccessDenied.cs",
+              "RelativeDocumentMoniker": "Client\\Controllers\\AccessDenied.cs",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Controllers\\AccessDenied.cs",
+              "RelativeToolTip": "Client\\Controllers\\AccessDenied.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:57:03.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\AccessDenied\\Index.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\AccessDenied\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\Views\\AccessDenied\\Index.cshtml",
+              "RelativeToolTip": "Client\\Views\\AccessDenied\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T02:53:58.772Z"
             }
           ]
         }

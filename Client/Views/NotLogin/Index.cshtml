@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AdminLTE 3 | DataTables</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link href="~/adminlte-3.2.0/docs/assets/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    @* <link href="~/adminlte-3.2.0/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" /> *@
+    <!-- DataTables -->
+    <link href="~/adminlte-3.2.0/plugins/datatables-bs4/css/datatables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/adminlte-3.2.0/plugins/datatables-responsive/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/adminlte-3.2.0/plugins/datatables-buttons/css/buttons.bootstrap4.min.css" rel="stylesheet" />
+    <!-- Theme style -->
+    <link href="~/adminlte-3.2.0/dist/css/adminlte.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition sidebar-mini d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <!-- Flexbox di body untuk center -->
+    <div class="error-page text-center">
+        <h2 class="headline text-danger">403</h2>
+
+        <div class="error-content">
+            <h3><i class="fas fa-exclamation-triangle text-danger"></i> Oops! You are not logged in.</h3>
+
+            <p>
+                Please log in to continue accessing this page.
+                Meanwhile, you may <a asp-controller="Account" asp-action="Index">log in here</a>.
+            </p>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="~/adminlte-3.2.0/docs/assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/adminlte-3.2.0/docs/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/adminlte-3.2.0/dist/js/adminlte.min.js"></script>
+</body>
+
+</html>

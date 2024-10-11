@@ -1,0 +1,282 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/MainLayout.cshtml";
+}
+
+
+@* <section class="content mt-4">
+    <!-- Main Card -->
+    <div class="card card-gray-dark">
+        <div class="card-header">
+            <h4 class="mb-0">Profile</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-light">
+                        <div class="card-body text-center d-flex align-items-center justify-content-center">
+                            <div>
+                                <img src="~/adminlte-3.2.0/dist/img/user4-128x128.jpg"
+                                     class="profile-user-img img-fluid img-circle"
+                                     alt="User profile picture" />
+                                <h3 id="fullName" class="profile-username mt-2 font-weight-bold"></h3>
+                                <p id="nikProfile" class="text-muted font-weight-bold"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Profile Details wrapped in a card -->
+                <div class="col-md-8">
+                    <div class="card card-light">
+                        <div class="card-body">
+                            <form class="form-horizontal">
+                                <div class="form-group row mb-1">
+                                    <label for="firstName" class="col-sm-4 col-form-label">First Name</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="firstName"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="lastName" class="col-sm-4 col-form-label">Last Name</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="lastName"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="phone" class="col-sm-4 col-form-label">Phone</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="phone"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="email" class="col-sm-4 col-form-label">Email</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="email"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="birthDate" class="col-sm-4 col-form-label">Birth Date</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="birthDate"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="university" class="col-sm-4 col-form-label">University Name</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="university"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="degree" class="col-sm-4 col-form-label">Degree</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="degree"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="gpa" class="col-sm-4 col-form-label">GPA</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="gpa"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                        <button type="button" onClick="showModalEditProfile(NIK)" class="btn btn-warning float-right">Edit Profile</button>
+                                    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> *@
+
+<section class="content mt-4">
+    <!-- Main Card -->
+    <div class="card card-gray-dark">
+        <div class="card-header">
+            <h4 class="mb-0">Profile</h4>
+        </div>
+        <div class="card-body">
+            <!-- Flexbox Row -->
+            <div class="row d-flex">
+                <div class="col-md-4 d-flex">
+                    <!-- Left Column: Profile Image wrapped in a card -->
+                    <div class="card card-light h-100 w-100">
+                        <div class="card-body text-center d-flex align-items-center justify-content-center">
+                            <div>
+                                <img src="~/adminlte-3.2.0/dist/img/user4-128x128.jpg"
+                                     class="profile-user-img img-fluid img-circle"
+                                     alt="User profile picture" />
+                                <h3 id="fullName" class="profile-username mt-2 font-weight-bold"></h3>
+                                <p id="nikProfile" class="text-muted font-weight-bold"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Profile Details wrapped in a card -->
+                <div class="col-md-8 d-flex">
+                    <div class="card card-light h-100 w-100">
+                        <div class="card-body">
+                            <form class="form-horizontal">
+                                <div class="form-group row mb-1">
+                                    <label for="firstName" class="col-sm-4 col-form-label">First Name</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="firstName"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="lastName" class="col-sm-4 col-form-label">Last Name</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="lastName"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="phone" class="col-sm-4 col-form-label">Phone</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="phone"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="email" class="col-sm-4 col-form-label">Email</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="email"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="birthDate" class="col-sm-4 col-form-label">Birth Date</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="birthDate"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="university" class="col-sm-4 col-form-label">University Name</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="university"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-1">
+                                    <label for="degree" class="col-sm-4 col-form-label">Degree</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="degree"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="gpa" class="col-sm-4 col-form-label">GPA</label>
+                                    <div class="col-sm-8">
+                                        <div class="border pl-3 pr-2 py-1 rounded">
+                                            <p class="form-control-plaintext" id="gpa"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" onClick="showModalEditProfile(NIK)" class="btn btn-warning float-right">Edit Profile</button>
+                                <a href="/ChangePassword"  class="btn btn-dark mr-2 float-right">Change Password</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--modal edit -->
+<div class="modal fade" id="modalEditProfile">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4  class="modal-title">Edit Profile</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editProfileForm">
+                    <input type="text" id="inputNik" hidden />
+                    <div class="form-group">
+                        <label for="inputFirstName">First Name</label>
+                        <input type="text" class="form-control" id="inputFirstName" name="fisrtName" placeholder="Enter first name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLastName">Last Name</label>
+                        <input type="text" class="form-control" id="inputLastName" name="lastName" placeholder="Enter last name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPhone">Phone</label>
+                        <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Enter email" readonly required>
+                        <span class="invalid-feedback" id="emailFeedback">
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputBirthDate">Birth Date</label>
+                        <input type="date" class="form-control" id="inputBirthDate" name="inputBirthDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputUniversityProfile">University</label>
+                        <select class="form-control select2bs4" id="inputUniversityProfile" name="inputUniversityProfile" required>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="degree">Degree</label>
+                        <select class="form-control select2bs4" style="width:100%" id="inputDegree" name="inputDegree" required>
+                            <option value="" disabled>Select Degree</option>
+                            <option value="0">D3</option>
+                            <option value="1">D4</option>
+                            <option value="2">S1</option>
+                            <option value="3">S2</option>
+                            <option value="4">S3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputGpa">GPA</label>
+                        <input type="number" class="form-control" id="inputGpa" name="gpa" placeholder="Enter your GPA" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" id="buttonSave" form="editProfileForm" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+
+@section Script {
+    <script src="~/script/profileScript.js"></script>
+}

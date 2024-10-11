@@ -9953,6 +9953,54 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\accountRoleScript.js",
+      "PackagePath": "staticwebassets\\script\\accountRoleScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\accountScript.js",
+      "PackagePath": "staticwebassets\\script\\accountScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\changePasswordScript.js",
+      "PackagePath": "staticwebassets\\script\\changePasswordScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\dashboardScript.js",
+      "PackagePath": "staticwebassets\\script\\dashboardScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\dashboardScriptFE.js",
+      "PackagePath": "staticwebassets\\script\\dashboardScriptFE.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\forgotPasswordScript.js",
+      "PackagePath": "staticwebassets\\script\\forgotPasswordScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\layoutScript.js",
+      "PackagePath": "staticwebassets\\script\\layoutScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\moment.js",
+      "PackagePath": "staticwebassets\\script\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\profileScript.js",
+      "PackagePath": "staticwebassets\\script\\profileScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\registerScript.js",
+      "PackagePath": "staticwebassets\\script\\registerScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\roleScript.js",
+      "PackagePath": "staticwebassets\\script\\roleScript.js"
+    },
+    {
+      "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\sideBarScript.js",
+      "PackagePath": "staticwebassets\\script\\sideBarScript.js"
+    },
+    {
       "Id": "C:\\Users\\muhammad.shiddiq\\source\\repos\\Latihan\\Client\\wwwroot\\script\\universityScript.js",
       "PackagePath": "staticwebassets\\script\\universityScript.js"
     },

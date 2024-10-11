@@ -1,4 +1,6 @@
 ﻿using Latihan.Models;
+using Latihan.ViewModels;
+using static Latihan.ViewModels.DataVM;
 
 namespace Latihan.Repositories.Interfaces
 {
@@ -7,6 +9,10 @@ namespace Latihan.Repositories.Interfaces
         IEnumerable<Account> GetAllAccount();
         IEnumerable<Employee> GetAllEmployee();
         IEnumerable<Profiling> GetAllProfiling();
-        IEnumerable<Education> GetAllEducation();
+        IEnumerable<AccountRole> GetAllAccountRole();
+        IEnumerable<DataVM.GetByDegreeVM> GetByDegree();
+        Employee GetEmployeeByNIKOrEmail(string nikOrEmail);
+        List<string> GetRoles(string nikOrEmail);
+        IEnumerable<GetAccountRoleVM> GetAllAccountRoles();
     }
 }

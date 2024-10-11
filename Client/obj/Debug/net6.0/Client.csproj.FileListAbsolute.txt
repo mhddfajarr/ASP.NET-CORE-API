@@ -212,3 +212,10 @@ C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\obj\Debug\net6.0\refint\Cl
 C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\obj\Debug\net6.0\Client.pdb
 C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\obj\Debug\net6.0\Client.genruntimeconfig.cache
 C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\obj\Debug\net6.0\ref\Client.dll
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\obj\Debug\net6.0\Client.sourcelink.json
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Client\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

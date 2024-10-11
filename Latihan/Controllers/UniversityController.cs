@@ -4,6 +4,7 @@ using Latihan.Models;
 using Latihan.Repositories;
 using Latihan.Helper;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace Latihan.Controllers
@@ -20,6 +21,7 @@ namespace Latihan.Controllers
         }
         
         [HttpGet]
+        //[Authorize]
         public IActionResult GetAllUniversities()
         {
             var data = _universityRepository.GetAllUniversities();
@@ -34,7 +36,8 @@ namespace Latihan.Controllers
             }
         }
         [HttpGet("{id}")]
-        public IActionResult GetDepartmentsById(string id)
+        //[Authorize]
+        public IActionResult GetUniversityById(string id)
         {
             var data = _universityRepository.GetUniveristyById(id);
 
@@ -46,7 +49,7 @@ namespace Latihan.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateDepartment(string id, [FromBody] University university)
+        public IActionResult UpdateUniversity(string id, [FromBody] University university)
         {
             if (id != university.Id)
             {
@@ -62,17 +65,16 @@ namespace Latihan.Controllers
             return ResponseHTTP.CreateResponse(404, "No university found with the sepecific id.");
         }
 
-
-
-
         [HttpPost]
+        //[Authorize(Roles = "Admin")]
         public IActionResult AddUniversity(University university)
         {
             var addDepartment = _universityRepository.AddUniversity(university);
+            var data = university;
 
             if (addDepartment > 0)
             {
-                return ResponseHTTP.CreateResponse(201, "Success add new University.", university);
+                return ResponseHTTP.CreateResponse(201, "Success add new University.", data);
             }
             else
             {
@@ -81,7 +83,8 @@ namespace Latihan.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteDepartment(string id)
+        //[Authorize(Roles = "Admin")]
+        public IActionResult DeleteUniversity(string id)
         {
             int result = _universityRepository.DeleteUniversity(id);
             if (result > 0)

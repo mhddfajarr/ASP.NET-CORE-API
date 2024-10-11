@@ -36,14 +36,38 @@ namespace Latihan.Migrations
                     b.ToTable("Accounts");
                 });
 
+            modelBuilder.Entity("Latihan.Models.AccountRole", b =>
+                {
+                    b.Property<int>("AccountRoleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AccountRoleId"));
+
+                    b.Property<string>("NIK")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("AccountRoleId");
+
+                    b.HasIndex("NIK");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AccountRoles");
+                });
+
             modelBuilder.Entity("Latihan.Models.Education", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Degree")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Degree")
+                        .HasColumnType("int");
 
                     b.Property<float>("GPA")
                         .HasColumnType("real");
@@ -103,6 +127,20 @@ namespace Latihan.Migrations
                     b.ToTable("Profilings");
                 });
 
+            modelBuilder.Entity("Latihan.Models.Role", b =>
+                {
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoleName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RoleId");
+
+                    b.ToTable("Roles");
+                });
+
             modelBuilder.Entity("Latihan.Models.University", b =>
                 {
                     b.Property<string>("Id")
@@ -126,6 +164,25 @@ namespace Latihan.Migrations
                         .IsRequired();
 
                     b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("Latihan.Models.AccountRole", b =>
+                {
+                    b.HasOne("Latihan.Models.Account", "Account")
+                        .WithMany()
+                        .HasForeignKey("NIK")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Latihan.Models.Role", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Account");
+
+                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("Latihan.Models.Education", b =>

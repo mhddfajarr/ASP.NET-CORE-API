@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("240e7ee7-d2db-442f-b93f-d1d61c84c14c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Latihan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfb389dd35de58622ff0f1c211370866561fcd90")]
 [assembly: System.Reflection.AssemblyProductAttribute("Latihan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Latihan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

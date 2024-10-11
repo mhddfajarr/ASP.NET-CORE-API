@@ -114,24 +114,31 @@ namespace Latihan.Repositories
             };
 
             _myContext.Accounts.Add(newAccount);
+
+            var defaultAccountRole = new AccountRole
+            {
+                NIK = newEmployeeNik,   
+                RoleId = "R02"              
+            };
+            _myContext.AccountRoles.Add(defaultAccountRole);
             var save = _myContext.SaveChanges();
             return save;
         }
 
-        public IEnumerable<Data.GetAlldataEmpVM> GetAllEmpData()
+        public IEnumerable<DataVM.GetAlldataEmpVM> GetAllEmpData()
         {
             return _myContext.Employees
              .Include(a => a.Account.Profiling.Education.University)
-             .Select(a => new Data.GetAlldataEmpVM
+             .Select(a => new DataVM.GetAlldataEmpVM
              {
                  NIK = a.NIK,
-                 FullName = $"{a.FirstName} {a.LastName}",
+                 FullName = a.FirstName + a.LastName,
                  Email = a.Email,
                  Phone = a.Phone,
-                 BirthDate = a.BirthDate.HasValue ? a.BirthDate.Value.ToString("d-MMMM-yyyy") : "N/A",
+                 BirthDate = a.BirthDate.HasValue ? a.BirthDate.Value.ToString() : "N/A",
                  UniversityName = a.Account.Profiling.Education.University.Name,
                  GPA = a.Account.Profiling.Education.GPA,
-                 degree = a.Account.Profiling.Education.Degree.ToString(),
+                 degree = a.Account.Profiling.Education.Degree
              })
              .ToList();
         }

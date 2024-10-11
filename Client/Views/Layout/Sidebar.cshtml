@@ -1,6 +1,9 @@
-﻿  <!-- Main Sidebar Container -->
+﻿@{
+    var userRoles = Context.Session.GetString("Roles")?.Split(',');
+}
+
+
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
     <a href="../../index3.html" class="brand-link">
         <img src="~/adminlte-3.2.0/dist/img/adminltelogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8 " />
         <span class="brand-text font-weight-light">AdminLTE 3</span>
@@ -14,7 +17,7 @@
                 <img src="~/adminlte-3.2.0/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image" />
             </div>
             <div class="info">
-                <a href="#" class="d-block">Alexander Pierce</a>
+                <a asp-controller="Profile" asp-action="Index" id="userFullName" class="d-block text-wrap w-100"></a>
             </div>
         </div>
 
@@ -29,60 +32,87 @@
                 </div>
             </div>
         </div>
-
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                <li class="nav-item menu-open">
-                    <a href="#" class="nav-link active">
-                        <i class="nav-icon fas fa-table"></i>
+                <li class="nav-item has-treeview @(ViewContext.RouteData.Values["controller"].ToString() == "Profile" || ViewContext.RouteData.Values["controller"].ToString() == "ChangePassword" ? "menu-open" : "")">
+                    <a href="#" class="nav-link">
                         <p>
-                            Tables
-                            <i class="fas fa-angle-left right"></i>
+                            Account Settings
+                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="../tables/simple.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Simple Tables</p>
+                            <a asp-controller="Profile" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Profile" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+                                <i class="nav-icon fas fa-user"></i>
+                                <p>Profile</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="../tables/data.html" class="nav-link active">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>DataTables</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../tables/jsgrid.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>jsGrid</p>
+                            <a asp-controller="ChangePassword" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "ChangePassword" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+                                <i class="nav-icon fas fa-lock"></i>
+                                <p>Change Password</p>
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-header">EXAMPLES</li>
-                <li class="nav-item">
-                    <a href="../calendar.html" class="nav-link">
-                        <i class="nav-icon far fa-calendar-alt"></i>
-                        <p>
-                            Calendar
-                            <span class="badge badge-info right">2</span>
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item acitve">
-                    <a href="../gallery.html" class="nav-link">
-                        <i class="nav-icon far fa-image"></i>
-                        <p>
-                            Gallery
-                        </p>
-                    </a>
-                </li>
+                 @if (userRoles != null && userRoles.Any(role => role.Trim() == "Admin"))
+                {
+                    <li class="nav-item has-treeview @(ViewContext.RouteData.Values["controller"].ToString() == "Dashboard" || ViewContext.RouteData.Values["controller"].ToString() == "University" || ViewContext.RouteData.Values["controller"].ToString() == "Register" || ViewContext.RouteData.Values["controller"].ToString() == "AccountRole" || ViewContext.RouteData.Values["controller"].ToString() == "Role" ? "menu-open" : "")">
+                        <a href="#" class="nav-link">
+                            <p>
+                                Menu
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li id="dashboardSideBar" class="nav-item">
+                                <a asp-controller="Dashboard" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Dashboard" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+                                    <i class="nav-icon fas fa-chart-line"></i>
+                                    <p>Dashboard</p>
+                                </a>
+                            </li>
+                            <li id="dashboardFrontEndSideBar" class="nav-item">
+                                <a asp-controller="Dashboard" asp-action="frontEnd" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Dashboard" && ViewContext.RouteData.Values["action"].ToString() == "frontEnd" ? "active" : "")">
+                                    <i class="nav-icon fas fa-chart-line"></i>
+                                    <p>Dashboard Front End</p>
+                                </a>
+                            </li>
+                            <li id="universitySideBar" class="nav-item">
+                                <a asp-controller="University" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "University" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+                                    <i class="nav-icon fas fa-university"></i>
+                                    <p>University</p>
+                                </a>
+                            </li>
+                            <li id="registerSideBar" class="nav-item">
+                                <a asp-controller="Register" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Register" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+                                    <i class="nav-icon fas fa-user-plus"></i>
+                                    <p>Register Account</p>
+                                </a>
+                            </li>
+                            <li id="accountRoleSideBar" class="nav-item">
+                                <a asp-controller="AccountRole" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "AccountRole" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
+                                    <i class="nav-icon fas fa-users-cog"></i>
+                                    <p>Account Role</p>
+                                </a>
+                            </li>
+                            <li id="roleSideBar" class="nav-item">
+                                <a asp-controller="Role" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Role" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active light" : "")">
+                                    <i class="nav-icon fas fa-user-shield"></i>
+                                    <p>Role</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                }
+                
+                
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
 </aside>
+

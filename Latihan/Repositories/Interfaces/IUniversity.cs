@@ -9,7 +9,5 @@ namespace Latihan.Repositories.Interfaces
         int AddUniversity(University university);
         int UpdateUniversity(University university);
         int DeleteUniversity(string id);
-
-
     }
 }

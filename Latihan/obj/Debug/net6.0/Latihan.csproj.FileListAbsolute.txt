@@ -86,3 +86,5 @@ C:\Users\muhammad.shiddiq\source\repos\Latihan\Latihan\obj\Debug\net6.0\Latihan.
 C:\Users\muhammad.shiddiq\source\repos\Latihan\Latihan\obj\Debug\net6.0\Latihan.genruntimeconfig.cache
 C:\Users\muhammad.shiddiq\source\repos\Latihan\Latihan\obj\Debug\net6.0\ref\Latihan.dll
 C:\Users\muhammad.shiddiq\source\repos\Latihan\Latihan\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Latihan\obj\Debug\net6.0\Latihan.sourcelink.json
+C:\Users\muhammad.shiddiq\source\repos\Latihan\Latihan\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

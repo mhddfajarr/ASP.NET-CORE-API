@@ -1,11 +1,13 @@
 ﻿using Latihan.Helper;
 using Latihan.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Latihan.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     [EnableCors("AllowOrigin")]
@@ -64,6 +66,34 @@ namespace Latihan.Controllers
         public IActionResult GetAllProfiling()
         {
             var data = _getDataRepository.GetAllProfiling();
+            if (data == null)
+            {
+                return ResponseHTTP.CreateResponse(404, "No data profiling");
+            }
+            else
+            {
+                return ResponseHTTP.CreateResponse(200, "Profilings retrieved successfully.", data);
+            }
+        }
+
+        [HttpGet("byDegree")]
+        public IActionResult getDataByDegree()
+        {
+            var data = _getDataRepository.GetByDegree();
+            if (data == null)
+            {
+                return ResponseHTTP.CreateResponse(404, "No data profiling");
+            }
+            else
+            {
+                return ResponseHTTP.CreateResponse(200, "Profilings retrieved successfully.", data);
+            }
+        }
+
+        [HttpGet("accountRole")]
+        public IActionResult getDataAccountRole()
+        {
+            var data = _getDataRepository.GetAllAccountRoles();
             if (data == null)
             {
                 return ResponseHTTP.CreateResponse(404, "No data profiling");

@@ -13,12 +13,14 @@ namespace Latihan.Context
             public DbSet<Employee> Employees { get; set; }
             public DbSet<Profiling> Profilings { get; set; }
             public DbSet<University> Universities { get; set; }
-            protected override void OnModelCreating(ModelBuilder modelBuilder)
-            {
-                base.OnModelCreating(modelBuilder);
-                modelBuilder.Entity<Education>()
-                    .Property(e => e.Degree)
-                    .HasConversion(new EnumToStringConverter<Degree>());
-            }
+            public DbSet<AccountRole> AccountRoles { get; set; }
+            public DbSet<Role> Roles { get; set; }
+            //protected override void OnModelCreating(ModelBuilder modelBuilder)
+            //{
+            //    base.OnModelCreating(modelBuilder);
+            //    modelBuilder.Entity<Education>()
+            //        .Property(e => e.Degree)
+            //        .HasConversion(new EnumToStringConverter<Degree>());
+            //}
     }
 }

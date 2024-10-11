@@ -1,4 +1,7 @@
-﻿$(document).ready(function () {
+﻿var token = JSON.parse(localStorage.getItem("loginSession") || '{}')?.token || null;
+$(document).ready(function () {
+    //checkLogin()
+    //checkRole();
     $("#tableUniversity").DataTable({
         "paging": true,
         "responsive": true,
@@ -12,6 +15,9 @@
             type: "GET",
             "dataType": "json",
             "dataSrc": "data",
+            headers: {
+                Authorization: 'Bearer ' + token 
+            },
         },
         "columnDefs": [{
             "defaultContent": "-",
@@ -27,45 +33,82 @@
             { "data": "name" },
             {
                 "render": function (data, type, row) {
-                    return '<button class="btn btn-primary btn-sm mr-2" onClick="showModalEdit(\'' + row.id + '\'); return false;"><i class="fas fa-solid fa-pen"></i></button>' +
-                        '<button  class="btn btn-danger btn-sm" onClick="deleteUniversity(\'' + row.id +  '\'); return false;"><i class="fas fa-solid fa-trash"></i></button>';
+                    return '<button class="btn btn-warning btn-sm mr-2" data-toggle="tooltip" data-placement="top" title="Edit Data" onClick="showModalEdit(\'' + row.id + '\'); return false;"><i class="fas fa-solid fa-pen"></i></button>' +
+                        '<button  class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" title="Delete Data" onClick="deleteUniversity(\'' + row.id + '\'); return false;"><i class="fas fa-solid fa-trash"></i></button>';
                 }
             }
         ],
-        
     });
-    document.getElementById("universityForm").reset();
-    //$('#buttonEdit').hide();
+    $('#modalUniversity').on('hidden.bs.modal', function () {
+        resetForm();
+    });
+
+});
+//tooltip di index
+$('[data-tooltip="tooltip"]').tooltip({
+    trigger: "hover",
 });
 
+//tooltip di action table
+$(document).ajaxComplete(function () {
+    $('[data-toggle="tooltip"]').tooltip({
+        trigger: "hover",
+    });
+});
+
+function resetForm() {
+    $('#univ_Id').val('');
+    $('#inputUnivName').val('');
+    $('#univ_Id').removeClass('is-invalid');
+    $('#inputUnivName').removeClass('is-invalid');
+}
+
 function add() {
-    var university = new Object();
-    university.name = $('#inputUnivName').val();
+    var university = {
+        name: $('#inputUnivName').val()
+    };
+
     $.ajax({
         type: "POST",
         url: "https://localhost:7245/api/University",
+        headers: {
+            Authorization: 'Bearer ' + token
+        },
         data: JSON.stringify(university),
         contentType: "application/json; charset=utf-8",
         success: function (result) {
-            Swal.fire({
-                title: "Success add new data!",
-                icon: "success"
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+            Toast.fire({
+                icon: "success",
+                title: "Success add new university."
             });
             $('#modalUniversity').modal('hide');
-            document.getElementById("universityForm").reset();
+            resetForm();
             $('#tableUniversity').DataTable().ajax.reload();
         },
         error: function (xhr) {
-            console.log(xhr)
+            console.log(xhr);
         }
     });
 }
+
 function showModalEdit(univ_Id) {
-    //$('#buttonEdit').show();
-    //$('#buttonSave').hide();
     $.ajax({
         type: "GET",
-        url: "https://localhost:7245/api/University/"+ univ_Id,
+        url: "https://localhost:7245/api/University/" + univ_Id,
+        headers: {
+            Authorization: 'Bearer ' + token
+        },
         dataType: "json",
         contentType: "application/json; charset=utf-8",
         success: function (result) {
@@ -73,33 +116,56 @@ function showModalEdit(univ_Id) {
             $('#univ_Id').val(obj.id);
             $('#inputUnivName').val(obj.name);
             $('#modalUniversity').modal('show');
+            $('#titleModal').text('Edit university');
         },
         error: function (xhr) {
-            console.log(xhr)
+            console.log(xhr);
         }
     });
 }
 
+$('#modalUniversity').on('hidden.bs.modal', function () {
+    resetForm();
+    $('#titleModal').text('Add new university');
+});
+
+
 function saveEdit() {
-    var university = new Object();
-    university.id = $('#univ_Id').val();
-    university.name = $('#inputUnivName').val();
+    var university = {
+        id: $('#univ_Id').val(),
+        name: $('#inputUnivName').val()
+    };
+
     $.ajax({
         type: "PUT",
         url: "https://localhost:7245/api/University/" + university.id,
         data: JSON.stringify(university),
+        headers: {
+            Authorization: 'Bearer ' + token
+        },
         contentType: "application/json; charset=utf-8",
         success: function (result) {
-            Swal.fire({
-                title: "Success edit data!",
-                icon: "success"
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
             });
-            document.getElementById("universityForm").reset();
+            Toast.fire({
+                icon: "success",
+                title: "Success edit university."
+            });
+            resetForm();
             $('#modalUniversity').modal('hide');
             $('#tableUniversity').DataTable().ajax.reload();
         },
         error: function (xhr) {
-            console.log(xhr)
+            console.log(xhr);
         }
     });
 }
@@ -119,29 +185,44 @@ function deleteUniversity(univ_Id) {
                 type: "DELETE",
                 url: "https://localhost:7245/api/University/" + univ_Id,
                 dataType: "json",
+                headers: {
+                    Authorization: 'Bearer ' + token
+                },
                 success: function (result) {
-                    Swal.fire({
-                        title: "Deleted!",
-                        text: "Your file has been deleted.",
-                        icon: "success"
+                    const Toast = Swal.mixin({
+                        toast: true,
+                        position: "top-end",
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        didOpen: (toast) => {
+                            toast.onmouseenter = Swal.stopTimer;
+                            toast.onmouseleave = Swal.resumeTimer;
+                        }
+                    });
+                    Toast.fire({
+                        icon: "success",
+                        title: "Success deleted university."
                     });
                     $('#modalUniversity').modal('hide');
                     $('#tableUniversity').DataTable().ajax.reload();
                 },
                 error: function (xhr) {
-                    console.log(xhr)
+                    console.log(xhr);
                 }
             });
-            
         }
     });
-
 }
 
 $(function () {
     $.validator.setDefaults({
         submitHandler: function () {
-            add();
+            if ($('#univ_Id').val() === '') {
+                add();
+            } else {
+                saveEdit();
+            }
         }
     });
     $('#universityForm').validate({
@@ -168,3 +249,5 @@ $(function () {
         }
     });
 });
+
+

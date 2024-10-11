@@ -18,6 +18,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\muhammad.shiddiq\source\repos\Latihan\Client
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/AccessDenied/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzRGVuaWVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/AccountRole/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFJvbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/ChangePassword/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlUGFzc3dvcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Dashboard/frontEnd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXGZyb250RW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +64,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Layout/Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XFNpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/NotFound/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90Rm91bmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/NotLogin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90TG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Shared/AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEF1dGhMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/muhammad.shiddiq/source/repos/Latihan/Client/Views/Shared/Error.cshtml]
